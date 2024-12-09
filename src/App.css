@@ -1,0 +1,25 @@
+:root{
+  --yellow: #FFEE00;
+}
+
+html, body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: black;
+}
+
+.orders-holder{
+  width: 80%;
+  max-width: 350px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, 350px));
+  grid-gap: 0.5em;
+  justify-content: center;
+  padding: 0.5em;
+  box-sizing: border-box;
+}

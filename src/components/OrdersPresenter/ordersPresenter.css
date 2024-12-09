@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+.order-dot{
+  width: 10px;
+  height: 10px;
+  display: block;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.blue-dot-bg{
+  background: #0C7DED;  
+}
+
+.grey-dot-bg{
+  background: #717374;
+}
+
+.yellow-dot-bg{
+  background: #FFEE00;
+}
+
+.order-item{
+  max-width: 350px;
+  padding: 1rem;
+  color: #EDEDED;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 1) -32%, rgba(186, 186, 186, 1) 25.96%, rgba(132, 132, 132, 1) 0%);
+  background-origin: padding-box;
+  background-clip: border-box;
+  padding: 3.5px;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+
+.order-detail__header {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  font-family: "Lato", sans-serif;
+  border-bottom: 1px solid #606364;
+  padding: 0.5em 0;
+}
+
+.header-left, .header-right{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 48%;
+}
+
+.header-left{
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 15.5px;
+  color: #EDEDED;
+}
+
+.header-right{
+  display: flex;
+  font-size: 10.4px;
+  color: #EDEDED;
+  justify-content: flex-end;
+  margin: 0 0.5em 0 0;
+}
+
+.order-title{
+  font-family: "Inter", serif;
+  font-size: 17.6px;
+  font-weight: 500;
+  color: #969798;
+}
+
+.order-paragraf{
+  font-family: "Inter", serif;
+  font-size: 17.3px;
+  color: #EDEDED;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.order-item p{
+  margin: 0;
+}
+
+figure{
+  margin: 0;
+  padding: 0;
+}
+
+.order-wrapper{
+  width: 100%;
+  height: 100%;
+  background: black;
+}
+
+.order-detail{
+  box-sizing: border-box;
+}
+
+
+.order-detail__footer {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pick-btn{
+  font-family: "Inter", serif;
+  background: #FFEE00;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.base-btn{
+  font-family: "Inter", serif;
+  background: linear-gradient(66.07deg, rgba(8, 12, 15, 0.5) 5.1%, rgba(85, 85, 85, 0) 100%);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.resume-btn{
+  font-family: "Inter", serif;
+  background: #FFEE00;
+  font-size: 1rem;
+  font-weight: 600;
+}
